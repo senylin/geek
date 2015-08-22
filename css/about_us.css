@@ -92,11 +92,20 @@
     width: 100%;
     height: 350px;
     background-color: white;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    -moz-box-orient:horizontal;
+    -webkit-box-orient:horizontal;
+    box-orient:horizontal;
+    -moz-box-pack:center;
+    -webkit-box-pack:center;
+    -o-box-pack:center;
+    box-pack:center;
 }
 .social_logo{
     position: relative;
     top:120px;
-    margin:0 auto;
     height: 50px;
     width: 650px;
     background: url(../img/About_us_3/TXT1.png);
@@ -108,12 +117,21 @@
     width: 100%;
     height: 530px;
     background-color: white;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    -moz-box-orient:horizontal;
+    -webkit-box-orient:horizontal;
+    box-orient:horizontal;
+    -moz-box-pack:center;
+    -webkit-box-pack:center;
+    -o-box-pack:center;
+    box-pack:center;
 }
 .logos{
      position: relative;
-     margin: 0 auto;
      height: 420px;
-     width:880px;
+     width:760px;
      background-color: white;
 }
 .logoL{
@@ -196,7 +214,7 @@
     .header_Geek{position: relative;left: 100px;}
 }
 @media screen and (max-width: 600px){
-    #container{height: 4260px;overflow: auto;}
+    #container{height: 3780px;overflow: auto;}
     .pageone{position: relative;height:auto;top:0px; }
     .pagetwo{position: relative;top:0px;height: auto;}
     .pagethree{position: relative;top:0px;height: auto;}

@@ -4,7 +4,7 @@
         #bloc{
             float: left;
             width: 50%;
-            height: 480px;
+            height: 400px;
             background-color: white;
             display: box;
             display: -moz-box;
@@ -18,30 +18,24 @@
             box-pack:center;
         }
         #experiment{
-            padding-top: 100px;
-            width: 240px;
-            height: 210px;
+            padding-top: 40px;
+            width: 320px;
+            height: 320px;
         }
        #experiment .log{
             float: left;
-            margin-top: 10px;
             width: 100%;
-            height: 100px;
+            height: 250px;
             background-size: 100% 100%;
         }
         #experiment .txt{
             float: left;
-            margin-top: 35px;
             width: 100%;
-            height: 45px;
+            height: 70px;
             background-size: 100% 100%;
         }
         @media screen and (max-width: 600px){
-            #bloc{
-
-                width:100%;
-
-            }
+            #bloc{ width:100%;}
         }
     </style>
 
@@ -64,8 +58,8 @@
             },
             ready:function(){
                 this.experiment = this.$$("#experiment");
-                this.experiment.children[0].style.backgroundImage=" url(./img/About_us_"+this.name+"%20Pic.png)";
-                this.experiment.children[1].style.backgroundImage=" url(./img/About_us_"+this.name+"%20Txt.png)";
+                this.experiment.children[0].style.backgroundImage=" url(./img/About_us/"+this.name+"%20Pic.png)";
+                this.experiment.children[1].style.backgroundImage=" url(./img/About_us/"+this.name+"%20Txt.png)";
             }
         })
     </script>

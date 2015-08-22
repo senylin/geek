@@ -44,6 +44,8 @@
             $(".oval_href").children(".oval_1").removeClass('oval_2');
             $(".oval_href").children().eq(this.page).addClass('oval_2');
           $(".pages").animate({top:'-=980px'},800);
+            $('body,html').animate({scrollTop:0},1000);
+
         }
     })
 </script>
